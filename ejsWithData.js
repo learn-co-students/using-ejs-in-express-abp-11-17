@@ -11,7 +11,8 @@ app.get('/', function(req, resp){
     "NYC"
     "Music",
     "Code",
-    "Movies"
+    "Movies",
+    "People"
   ]
   resp.render('dataTemplate', {
     viewVariable: "I'm available in the view as `viewVariable`"
